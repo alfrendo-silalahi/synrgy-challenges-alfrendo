@@ -1,0 +1,16 @@
+==========================
+BinarFud
+==========================
+
+Di bawah ini adalah pesanan anda
+
+Nasi Goreng 5 75000
+-------------------------------+
+Total 5 75000
+
+Pembayaran : BinarCash
+
+==========================
+Simpan struk ini sebagai
+bukti pembayaran
+==========================
