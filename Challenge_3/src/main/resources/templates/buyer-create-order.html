@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <div th:replace="/layout/head :: head"></div>
+  <body>
+    <div class="container mt-5">
+      <div class="card row col-md-8 offset-md-2">
+        <div class="card-header">
+          <h3 class="card-title text-center">
+            Order - <span th:text="${product.productName}"></span> -
+            <span>Rp</span><span th:text="${product.price}"></span>
+          </h3>
+        </div>
+        <div class="card-body">
+          <form
+            role="form"
+            method="post"
+            th:action="@{/buyer/products/__${product.id}__/orders/create/process}"
+            th:object="${orderDetail}"
+          >
+            <div class="mb-3">
+              <label for="quantity" class="form-label">Quantity</label>
+              <input
+                type="number"
+                class="form-control"
+                id="quantity"
+                th:field="*{quantity}"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

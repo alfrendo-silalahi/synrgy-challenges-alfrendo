@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <div th:replace="/layout/head :: head"></div>
+  <body>
+    <div class="container mt-5">
+      <a
+        class="btn btn-primary mb-2"
+        th:href="@{/merchant/__${merchantId}__/products/create}"
+        >Create Product</a
+      >
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title text center">Product List</h3>
+        </div>
+        <div class="card-body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Product ID</th>
+                <th scope="col">Product Name</th>
+                <th scope="col">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr th:each="product, productStat : ${products}">
+                <th scope="row" th:text="${productStat.count}"></th>
+                <td th:text="${product.id}"></td>
+                <td th:text="${product.productName}"></td>
+                <td th:text="${product.price}"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <div th:replace="/layout/head :: head"></div>
+  <body>
+    <div class="container mt-5">
+      <a class="btn btn-primary mb-2" th:href="@{/buyer/cart}"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-cart"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+          />
+        </svg>
+        Cart</a
+      >
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title text-center">Product List</h3>
+        </div>
+        <div class="card-body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Product ID</th>
+                <th scope="col">Product Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">Store</th>
+                <th scope="col">Location</th>
+                <th scope="col">Owner</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr th:each="product, productStat : ${products}">
+                <th scope="row" th:text="${productStat.count}"></th>
+                <td th:text="${product.id}"></td>
+                <td th:text="${product.productName}"></td>
+                <td th:text="${product.price}"></td>
+                <td th:text="${product.store}"></td>
+                <td th:text="${product.location}"></td>
+                <td th:text="${product.owner}"></td>
+                <td>
+                  <a
+                    class="btn btn-primary btn-sm"
+                    th:href="@{/buyer/products/__${product.id}__/orders/create}"
+                    >Order Now!</a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <div th:replace="/layout/head :: head"></div>
+  <body>
+    <div class="container mt-5">
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title text center">Your Cart</h3>
+        </div>
+        <div class="card-body">
+          <table th:each="cart, cartStat : ${carts}" class="table mb-4">
+            <h5 th:text="${cart.store}"></h5>
+            <h6 th:text="${cart.totalPrice}"></h6>
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Product Name</th>
+                <th scope="col">Product Quantity</th>
+                <th scope="col">Price</th>
+                <th scope="col">Total Price per Product</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr th:each="c, cStat : ${cart.getCartDtos()}">
+                <th scope="row" th:text="${cStat.count}"></th>
+                <td th:text="${c.productName}"></td>
+                <td th:text="${c.quantity}"></td>
+                <td th:text="${c.price}"></td>
+                <td th:text="${c.totalPricePerProduct}"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
