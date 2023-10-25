@@ -1,0 +1,120 @@
+2023-10-21 11:17:58,891 INFO o.s.b.StartupInfoLogger [main] Starting MerchantServiceTest using Java 17.0.5 with PID 7636 (started by WIN-10 in D:\SYNRGY\material\challenges\synrgy-challenges-alfrendo\Challenge_4)
+2023-10-21 11:17:58,896 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-21 11:17:59,884 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-21 11:17:59,999 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 83 ms. Found 2 JPA repository interfaces.
+2023-10-21 11:18:02,578 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-21 11:18:02,761 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-21 11:18:02,767 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-21 11:18:03,133 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-21 11:18:03,154 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-21 11:18:03,194 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-21 11:18:03,592 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@32a4ea4e
+2023-10-21 11:18:03,595 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-21 11:18:04,255 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-21 11:18:05,386 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-21 11:18:05,699 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-21 11:18:06,480 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-21 11:18:07,158 INFO o.s.b.StartupInfoLogger [main] Started MerchantServiceTest in 8.883 seconds (process running for 10.586)
+2023-10-21 11:18:07,372 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-21 11:18:07,377 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-21 11:18:07,389 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-21 11:24:37,366 INFO o.s.b.StartupInfoLogger [main] Starting MerchantServiceTest using Java 17.0.5 with PID 12848 (started by WIN-10 in D:\SYNRGY\material\challenges\synrgy-challenges-alfrendo\Challenge_4)
+2023-10-21 11:24:37,369 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-21 11:24:38,195 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-21 11:24:38,293 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 80 ms. Found 2 JPA repository interfaces.
+2023-10-21 11:24:40,242 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-21 11:24:40,334 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-21 11:24:40,339 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-21 11:24:40,606 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-21 11:24:40,620 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-21 11:24:40,654 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-21 11:24:40,953 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@77204651
+2023-10-21 11:24:40,957 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-21 11:24:41,426 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-21 11:24:42,264 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-21 11:24:42,400 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-21 11:24:43,035 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-21 11:24:43,540 INFO o.s.b.StartupInfoLogger [main] Started MerchantServiceTest in 6.723 seconds (process running for 7.985)
+2023-10-21 11:24:43,694 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-21 11:24:43,697 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-21 11:24:43,706 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-21 11:26:16,270 INFO o.s.b.StartupInfoLogger [main] Starting MerchantServiceTest using Java 17.0.5 with PID 4156 (started by WIN-10 in D:\SYNRGY\material\challenges\synrgy-challenges-alfrendo\Challenge_4)
+2023-10-21 11:26:16,273 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-21 11:26:17,077 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-21 11:26:17,171 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 83 ms. Found 2 JPA repository interfaces.
+2023-10-21 11:26:19,255 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-21 11:26:19,340 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-21 11:26:19,345 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-21 11:26:19,625 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-21 11:26:19,642 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-21 11:26:19,684 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-21 11:26:19,987 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@26aee0a6
+2023-10-21 11:26:19,990 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-21 11:26:20,476 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-21 11:26:21,343 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-21 11:26:21,608 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-21 11:26:22,251 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-21 11:26:22,751 INFO o.s.b.StartupInfoLogger [main] Started MerchantServiceTest in 7.022 seconds (process running for 8.286)
+2023-10-21 11:26:22,886 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-21 11:26:22,889 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-21 11:26:22,897 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-21 11:29:26,551 INFO o.s.b.StartupInfoLogger [main] Starting MerchantServiceTest using Java 17.0.5 with PID 8956 (started by WIN-10 in D:\SYNRGY\material\challenges\synrgy-challenges-alfrendo\Challenge_4)
+2023-10-21 11:29:26,554 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-21 11:29:27,389 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-21 11:29:27,489 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 83 ms. Found 2 JPA repository interfaces.
+2023-10-21 11:29:29,480 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-21 11:29:29,600 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-21 11:29:29,605 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-21 11:29:29,850 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-21 11:29:29,869 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-21 11:29:29,903 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-21 11:29:30,210 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@56f2c9e8
+2023-10-21 11:29:30,214 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-21 11:29:30,688 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-21 11:29:31,513 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-21 11:29:31,647 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-21 11:29:32,285 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-21 11:29:32,768 INFO o.s.b.StartupInfoLogger [main] Started MerchantServiceTest in 6.75 seconds (process running for 7.992)
+2023-10-21 11:29:32,910 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-21 11:29:32,913 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-21 11:29:32,919 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-21 11:34:34,441 INFO o.s.b.StartupInfoLogger [main] Starting MerchantServiceTest using Java 17.0.5 with PID 4368 (started by WIN-10 in D:\SYNRGY\material\challenges\synrgy-challenges-alfrendo\Challenge_4)
+2023-10-21 11:34:34,444 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-21 11:34:35,276 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-21 11:34:35,390 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 92 ms. Found 2 JPA repository interfaces.
+2023-10-21 11:34:37,360 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-21 11:34:37,456 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-21 11:34:37,462 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-21 11:34:37,750 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-21 11:34:37,767 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-21 11:34:37,804 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-21 11:34:38,145 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@20184ade
+2023-10-21 11:34:38,147 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-21 11:34:38,618 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-21 11:34:39,459 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-21 11:34:39,600 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-21 11:34:40,219 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-21 11:34:40,708 INFO o.s.b.StartupInfoLogger [main] Started MerchantServiceTest in 6.817 seconds (process running for 8.138)
+2023-10-21 11:34:40,882 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-21 11:34:40,885 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-21 11:34:40,894 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-21 11:35:26,157 INFO o.s.b.StartupInfoLogger [main] Starting MerchantServiceTest using Java 17.0.5 with PID 12000 (started by WIN-10 in D:\SYNRGY\material\challenges\synrgy-challenges-alfrendo\Challenge_4)
+2023-10-21 11:35:26,159 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-21 11:35:27,003 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-21 11:35:27,097 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 81 ms. Found 2 JPA repository interfaces.
+2023-10-21 11:35:29,054 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-21 11:35:29,152 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-21 11:35:29,156 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-21 11:35:29,407 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-21 11:35:29,420 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-21 11:35:29,447 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-21 11:35:29,901 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1dd44289
+2023-10-21 11:35:29,904 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-21 11:35:30,344 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-21 11:35:31,232 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-21 11:35:31,371 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-21 11:35:32,018 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-21 11:35:32,522 INFO o.s.b.StartupInfoLogger [main] Started MerchantServiceTest in 6.887 seconds (process running for 8.1)
+2023-10-21 11:35:32,663 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-21 11:35:32,665 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-21 11:35:32,673 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

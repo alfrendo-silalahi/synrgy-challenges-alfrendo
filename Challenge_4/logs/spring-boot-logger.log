@@ -1,0 +1,31 @@
+2023-10-25 19:27:59,193 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.5 with PID 14604 (D:\SYNRGY\material\challenges\synrgy-challenges-alfrendo\Challenge_4\target\classes started by WIN-10 in D:\SYNRGY\material\challenges\synrgy-challenges-alfrendo\Challenge_4)
+2023-10-25 19:27:59,198 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-25 19:28:01,343 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-25 19:28:01,493 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 133 ms. Found 2 JPA repository interfaces.
+2023-10-25 19:28:02,372 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-10-25 19:28:02,392 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-25 19:28:02,396 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-25 19:28:02,397 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 19:28:02,541 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-25 19:28:02,541 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3251 ms
+2023-10-25 19:28:02,805 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-25 19:28:02,937 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-25 19:28:02,940 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-25 19:28:03,232 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-25 19:28:03,471 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-25 19:28:03,497 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-25 19:28:03,878 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4c2c44e8
+2023-10-25 19:28:03,881 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-25 19:28:04,418 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-25 19:28:05,626 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-25 19:28:05,925 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25 19:28:06,631 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-25 19:28:07,347 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-10-25 19:28:07,411 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-25 19:28:07,428 INFO o.s.b.StartupInfoLogger [main] Started Challenge4Application in 9.407 seconds (process running for 10.983)
+2023-10-25 19:28:28,477 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-25 19:28:28,478 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-10-25 19:28:28,479 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-10-25 19:29:08,104 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25 19:29:08,106 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-25 19:29:08,118 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
