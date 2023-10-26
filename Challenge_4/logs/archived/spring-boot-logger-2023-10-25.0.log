@@ -1,0 +1,247 @@
+2023-10-25 19:27:59,193 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.5 with PID 14604 (D:\SYNRGY\material\challenges\synrgy-challenges-alfrendo\Challenge_4\target\classes started by WIN-10 in D:\SYNRGY\material\challenges\synrgy-challenges-alfrendo\Challenge_4)
+2023-10-25 19:27:59,198 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-25 19:28:01,343 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-25 19:28:01,493 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 133 ms. Found 2 JPA repository interfaces.
+2023-10-25 19:28:02,372 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-10-25 19:28:02,392 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-25 19:28:02,396 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-25 19:28:02,397 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 19:28:02,541 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-25 19:28:02,541 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3251 ms
+2023-10-25 19:28:02,805 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-25 19:28:02,937 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-25 19:28:02,940 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-25 19:28:03,232 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-25 19:28:03,471 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-25 19:28:03,497 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-25 19:28:03,878 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4c2c44e8
+2023-10-25 19:28:03,881 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-25 19:28:04,418 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-25 19:28:05,626 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-25 19:28:05,925 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25 19:28:06,631 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-25 19:28:07,347 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-10-25 19:28:07,411 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-25 19:28:07,428 INFO o.s.b.StartupInfoLogger [main] Started Challenge4Application in 9.407 seconds (process running for 10.983)
+2023-10-25 19:28:28,477 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-25 19:28:28,478 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-10-25 19:28:28,479 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-10-25 19:29:08,104 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25 19:29:08,106 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-25 19:29:08,118 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-25 20:44:37,536 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.5 with PID 12772 (D:\BCA SYNRGY Academy Batch 6\Material\Challenge\synrgy-challenges-alfrendo\Challenge_4\target\classes started by WIN-10 in D:\BCA SYNRGY Academy Batch 6\Material\Challenge\synrgy-challenges-alfrendo\Challenge_4)
+2023-10-25 20:44:37,543 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-25 20:44:39,340 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-25 20:44:39,467 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 110 ms. Found 2 JPA repository interfaces.
+2023-10-25 20:44:40,466 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-10-25 20:44:40,482 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-25 20:44:40,492 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-25 20:44:40,493 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 20:44:40,665 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-25 20:44:40,667 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2985 ms
+2023-10-25 20:44:40,982 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-25 20:44:41,141 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-25 20:44:41,148 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-25 20:44:41,477 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-25 20:44:41,785 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-25 20:44:41,832 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-25 20:44:42,343 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5238896f
+2023-10-25 20:44:42,345 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-25 20:44:43,147 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-25 20:44:44,562 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-25 20:44:44,853 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25 20:44:45,675 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-25 20:44:46,344 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-10-25 20:44:46,374 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-25 20:44:46,386 INFO o.s.b.StartupInfoLogger [main] Started Challenge4Application in 10.671 seconds (process running for 12.928)
+2023-10-25 20:46:08,899 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-25 20:46:08,899 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-10-25 20:46:08,905 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2023-10-25 20:46:09,433 INFO o.s.a.AbstractOpenApiResource [http-nio-8080-exec-1] Init duration for springdoc-openapi is: 455 ms
+2023-10-25 20:48:53,325 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25 20:48:53,330 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-25 20:48:53,338 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-25 21:07:06,573 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.5 with PID 11712 (D:\BCA SYNRGY Academy Batch 6\Material\Challenge\synrgy-challenges-alfrendo\Challenge_4\target\classes started by WIN-10 in D:\BCA SYNRGY Academy Batch 6\Material\Challenge\synrgy-challenges-alfrendo\Challenge_4)
+2023-10-25 21:07:06,577 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-25 21:07:08,072 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-25 21:07:08,192 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 103 ms. Found 2 JPA repository interfaces.
+2023-10-25 21:07:09,212 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-10-25 21:07:09,224 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-25 21:07:09,228 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-25 21:07:09,228 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 21:07:09,390 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-25 21:07:09,391 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2676 ms
+2023-10-25 21:07:09,667 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-25 21:07:09,808 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-25 21:07:09,812 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-25 21:07:10,251 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-25 21:07:10,586 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-25 21:07:10,629 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-25 21:07:11,004 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a39e554
+2023-10-25 21:07:11,007 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-25 21:07:11,607 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-25 21:07:12,989 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-25 21:07:13,282 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25 21:07:14,175 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-25 21:07:14,836 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-10-25 21:07:14,862 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-25 21:07:14,876 INFO o.s.b.StartupInfoLogger [main] Started Challenge4Application in 9.759 seconds (process running for 11.571)
+2023-10-25 21:07:17,473 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-25 21:07:17,474 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-10-25 21:07:17,482 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 5 ms
+2023-10-25 21:07:18,688 INFO o.s.a.AbstractOpenApiResource [http-nio-8080-exec-8] Init duration for springdoc-openapi is: 451 ms
+2023-10-25 21:07:30,964 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25 21:07:30,966 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-25 21:07:30,970 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-25 21:07:39,242 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.5 with PID 12804 (D:\BCA SYNRGY Academy Batch 6\Material\Challenge\synrgy-challenges-alfrendo\Challenge_4\target\classes started by WIN-10 in D:\BCA SYNRGY Academy Batch 6\Material\Challenge\synrgy-challenges-alfrendo\Challenge_4)
+2023-10-25 21:07:39,247 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-25 21:07:40,688 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-25 21:07:40,807 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 103 ms. Found 2 JPA repository interfaces.
+2023-10-25 21:07:41,795 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-10-25 21:07:41,804 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-25 21:07:41,807 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-25 21:07:41,807 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 21:07:41,963 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-25 21:07:41,964 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2598 ms
+2023-10-25 21:07:42,178 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-25 21:07:42,262 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-25 21:07:42,265 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-25 21:07:42,479 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-25 21:07:42,667 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-25 21:07:42,712 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-25 21:07:42,959 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@74a85515
+2023-10-25 21:07:42,961 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-25 21:07:43,366 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-25 21:07:44,566 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-25 21:07:44,767 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25 21:07:45,452 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-25 21:07:46,150 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-10-25 21:07:46,176 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-25 21:07:46,188 INFO o.s.b.StartupInfoLogger [main] Started Challenge4Application in 8.153 seconds (process running for 9.717)
+2023-10-25 21:07:56,996 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-25 21:07:56,997 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-10-25 21:07:56,998 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-10-25 21:07:57,748 INFO o.s.a.AbstractOpenApiResource [http-nio-8080-exec-5] Init duration for springdoc-openapi is: 339 ms
+2023-10-25 21:09:58,090 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25 21:09:58,092 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-25 21:09:58,100 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-25 21:10:06,695 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.5 with PID 7472 (D:\BCA SYNRGY Academy Batch 6\Material\Challenge\synrgy-challenges-alfrendo\Challenge_4\target\classes started by WIN-10 in D:\BCA SYNRGY Academy Batch 6\Material\Challenge\synrgy-challenges-alfrendo\Challenge_4)
+2023-10-25 21:10:06,701 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-25 21:10:08,119 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-25 21:10:08,245 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 109 ms. Found 2 JPA repository interfaces.
+2023-10-25 21:10:09,049 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-10-25 21:10:09,059 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-25 21:10:09,061 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-25 21:10:09,062 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 21:10:09,206 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-25 21:10:09,207 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2389 ms
+2023-10-25 21:10:09,413 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-25 21:10:09,484 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-25 21:10:09,486 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-25 21:10:09,678 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-25 21:10:09,888 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-25 21:10:09,926 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-25 21:10:10,277 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6eeb29c0
+2023-10-25 21:10:10,282 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-25 21:10:10,678 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-25 21:10:12,244 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-25 21:10:12,450 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25 21:10:13,257 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-25 21:10:14,047 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-10-25 21:10:14,075 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-25 21:10:14,096 INFO o.s.b.StartupInfoLogger [main] Started Challenge4Application in 8.472 seconds (process running for 9.937)
+2023-10-25 21:10:18,773 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25 21:10:18,775 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-25 21:10:18,781 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-25 21:10:26,702 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.5 with PID 1240 (D:\BCA SYNRGY Academy Batch 6\Material\Challenge\synrgy-challenges-alfrendo\Challenge_4\target\classes started by WIN-10 in D:\BCA SYNRGY Academy Batch 6\Material\Challenge\synrgy-challenges-alfrendo\Challenge_4)
+2023-10-25 21:10:26,708 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-25 21:10:27,951 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-25 21:10:28,048 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 80 ms. Found 2 JPA repository interfaces.
+2023-10-25 21:10:28,803 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-10-25 21:10:28,814 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-25 21:10:28,820 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-25 21:10:28,821 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 21:10:28,967 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-25 21:10:28,968 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2157 ms
+2023-10-25 21:10:29,179 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-25 21:10:29,249 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-25 21:10:29,252 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-25 21:10:29,444 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-25 21:10:29,621 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-25 21:10:29,649 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-25 21:10:29,873 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1d2def55
+2023-10-25 21:10:29,875 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-25 21:10:30,265 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-25 21:10:31,387 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-25 21:10:31,567 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25 21:10:32,196 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-25 21:10:32,737 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-10-25 21:10:32,769 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-25 21:10:32,781 INFO o.s.b.StartupInfoLogger [main] Started Challenge4Application in 7.167 seconds (process running for 8.504)
+2023-10-25 21:11:09,338 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-25 21:11:09,339 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-10-25 21:11:09,343 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2023-10-25 21:11:10,133 INFO o.s.a.AbstractOpenApiResource [http-nio-8080-exec-9] Init duration for springdoc-openapi is: 383 ms
+2023-10-25 21:12:11,144 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25 21:12:11,146 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-25 21:12:11,152 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-25 21:13:40,940 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.5 with PID 13712 (D:\BCA SYNRGY Academy Batch 6\Material\Challenge\synrgy-challenges-alfrendo\Challenge_4\target\classes started by WIN-10 in D:\BCA SYNRGY Academy Batch 6\Material\Challenge\synrgy-challenges-alfrendo\Challenge_4)
+2023-10-25 21:13:40,946 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-25 21:13:42,258 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-25 21:13:42,368 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 95 ms. Found 2 JPA repository interfaces.
+2023-10-25 21:13:43,121 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-10-25 21:13:43,135 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-25 21:13:43,139 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-25 21:13:43,140 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 21:13:43,269 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-25 21:13:43,271 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2239 ms
+2023-10-25 21:13:43,538 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-25 21:13:43,618 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-25 21:13:43,621 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-25 21:13:43,850 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-25 21:13:44,092 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-25 21:13:44,116 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-25 21:13:44,356 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9e62fb
+2023-10-25 21:13:44,358 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-25 21:13:44,711 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-25 21:13:45,749 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-25 21:13:45,911 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25 21:13:46,490 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-25 21:13:46,949 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-10-25 21:13:46,971 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-25 21:13:46,980 INFO o.s.b.StartupInfoLogger [main] Started Challenge4Application in 6.867 seconds (process running for 8.347)
+2023-10-25 21:14:20,318 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25 21:14:20,320 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-25 21:14:20,326 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-25 21:14:26,254 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.5 with PID 8372 (D:\BCA SYNRGY Academy Batch 6\Material\Challenge\synrgy-challenges-alfrendo\Challenge_4\target\classes started by WIN-10 in D:\BCA SYNRGY Academy Batch 6\Material\Challenge\synrgy-challenges-alfrendo\Challenge_4)
+2023-10-25 21:14:26,263 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-25 21:14:27,892 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-25 21:14:28,060 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 147 ms. Found 2 JPA repository interfaces.
+2023-10-25 21:14:29,148 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-10-25 21:14:29,158 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-25 21:14:29,160 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-25 21:14:29,161 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 21:14:29,279 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-25 21:14:29,279 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2933 ms
+2023-10-25 21:14:29,441 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-25 21:14:29,507 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-25 21:14:29,512 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-10-25 21:14:29,654 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-25 21:14:29,816 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-25 21:14:29,838 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-25 21:14:30,136 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1182d1df
+2023-10-25 21:14:30,141 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-25 21:14:30,450 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-10-25 21:14:31,480 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-25 21:14:31,654 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25 21:14:32,381 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-25 21:14:32,950 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-10-25 21:14:32,985 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-25 21:14:32,996 INFO o.s.b.StartupInfoLogger [main] Started Challenge4Application in 7.683 seconds (process running for 8.649)
+2023-10-25 21:14:48,377 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-25 21:14:48,378 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-10-25 21:14:48,382 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2023-10-25 21:14:49,459 INFO o.s.a.AbstractOpenApiResource [http-nio-8080-exec-8] Init duration for springdoc-openapi is: 401 ms
+2023-10-25 21:15:13,903 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-25 21:15:13,905 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-25 21:15:13,912 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

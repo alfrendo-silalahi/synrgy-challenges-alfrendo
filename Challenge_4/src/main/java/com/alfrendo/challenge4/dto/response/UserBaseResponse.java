@@ -9,14 +9,14 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class ProductBaseResponse {
+public class UserBaseResponse {
 
     private UUID id;
 
-    private String productName;
+    private String username;
 
-    private Long price;
+    private String emailAddress;
 
-    private boolean isDeleted;
+    private String password;
 
 }

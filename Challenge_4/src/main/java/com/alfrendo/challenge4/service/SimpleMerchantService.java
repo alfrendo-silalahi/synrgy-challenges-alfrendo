@@ -37,7 +37,9 @@ public class SimpleMerchantService implements MerchantService {
             UpdateMerchantAvailabilityRequest merchantAvailabilityRequest
     ) {
         var merchant = merchantRepository.findById(merchantId)
-                .orElseThrow(() -> new ResourceNotFoundException("Merchant", "Id", merchantId.toString()));
+                .orElseThrow(() -> new ResourceNotFoundException(
+                        "Merchant with id " + merchantId + " not found!"
+                ));
         merchant.setOpen(merchantAvailabilityRequest.getOpen());
         var updatedMerchant = merchantRepository.save(merchant);
         return modelMapper.map(updatedMerchant, UpdateMerchantAvailabilityResponse.class);
@@ -58,20 +60,6 @@ public class SimpleMerchantService implements MerchantService {
                 .toList();
 
         return new MerchantListResponse(merchantBaseResponseList);
-    }
-
-    @Override
-    public ProductListResponse getProductListByMerchant(UUID merchantId) {
-        var merchant = merchantRepository.findById(merchantId)
-                .orElseThrow(() -> new ResourceNotFoundException("Merchant", "id", merchantId.toString()));
-
-        var products = productRepository.findAllByMerchant(merchant);
-
-        var productBaseResponseList = products.stream()
-                .map(product -> modelMapper.map(product, ProductBaseResponse.class))
-                .toList();
-
-        return new ProductListResponse(productBaseResponseList);
     }
 
 }

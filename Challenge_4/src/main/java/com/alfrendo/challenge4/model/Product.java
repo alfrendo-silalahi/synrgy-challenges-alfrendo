@@ -26,6 +26,9 @@ public class Product {
 
     private Long price;
 
+    @Column(columnDefinition = "BOOLEAN DEFAULT false")
+    private boolean isDeleted;
+
     @ManyToOne
     @JoinColumn(name = "merchant_id")
     private Merchant merchant;

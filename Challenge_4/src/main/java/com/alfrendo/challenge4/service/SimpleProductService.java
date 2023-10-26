@@ -1,7 +1,9 @@
 package com.alfrendo.challenge4.service;
 
-import com.alfrendo.challenge4.dto.request.CreateProductRequest;
+import com.alfrendo.challenge4.dto.request.CreateProductBaseRequest;
+import com.alfrendo.challenge4.dto.request.UpdateProductBaseRequest;
 import com.alfrendo.challenge4.dto.response.CreateProductResponse;
+import com.alfrendo.challenge4.dto.response.DeleteProductResponse;
 import com.alfrendo.challenge4.dto.response.ProductBaseResponse;
 import com.alfrendo.challenge4.dto.response.ProductListResponse;
 import com.alfrendo.challenge4.exception.ResourceNotFoundException;
@@ -39,9 +41,11 @@ public class SimpleProductService implements ProductService {
 //    }
 
     @Override
-    public CreateProductResponse createProduct(UUID merchantId, CreateProductRequest createProductRequest) {
+    public CreateProductResponse createProduct(UUID merchantId, CreateProductBaseRequest createProductRequest) {
         var merchant = merchantRepository.findById(merchantId)
-                .orElseThrow(() -> new ResourceNotFoundException("Merchant", "Id", merchantId.toString()));
+                .orElseThrow(() -> new ResourceNotFoundException(
+                        "Merchant with id " + merchantId + " not found!"
+                ));
 
         var product = modelMapper.map(createProductRequest, Product.class);
         product.setMerchant(merchant);
@@ -61,6 +65,49 @@ public class SimpleProductService implements ProductService {
                 .map(product -> modelMapper.map(product, ProductBaseResponse.class))
                 .toList();
         return new ProductListResponse(productBaseResponseList);
+    }
+
+    @Override
+    public ProductListResponse getProductListByMerchant(UUID merchantId) {
+        var merchant = merchantRepository.findById(merchantId)
+                .orElseThrow(() -> new ResourceNotFoundException(
+                        "Merchant with id " + merchantId + " not found!"
+                ));
+
+        var products = productRepository.findAllByMerchant(merchant);
+
+        var productBaseResponseList = products.stream()
+                .map(product -> modelMapper.map(product, ProductBaseResponse.class))
+                .toList();
+
+        return new ProductListResponse(productBaseResponseList);
+    }
+
+    @Override
+    public ProductBaseResponse updateDetailProduct(UUID merchantId, UUID productId, UpdateProductBaseRequest updateProductRequest) {
+        var product = productRepository.findByMerchantIdAndProductId(merchantId, productId)
+                .orElseThrow(() -> new ResourceNotFoundException(
+                        "Product with id " + productId + " and merchant id " + merchantId + " not found!"
+                ));
+
+        modelMapper.map(updateProductRequest, product);
+
+        var updatedProduct = productRepository.save(product);
+
+        return modelMapper.map(updatedProduct, ProductBaseResponse.class);
+    }
+
+    @Override
+    public DeleteProductResponse deleteProduct(UUID merchantId, UUID productId) {
+        var product = productRepository.findByMerchantIdAndProductId(merchantId, productId)
+                .orElseThrow(() -> new ResourceNotFoundException(
+                        "Product with id " + productId + " and merchant id " + merchantId + " not found!"
+                ));
+
+        product.setDeleted(true);
+        productRepository.save(product);
+
+        return new DeleteProductResponse("Product deleted successfully");
     }
 
 }

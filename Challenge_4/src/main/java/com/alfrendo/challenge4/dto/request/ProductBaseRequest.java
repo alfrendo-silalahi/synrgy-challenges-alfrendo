@@ -7,7 +7,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class CreateProductRequest {
+public class ProductBaseRequest {
 
     private String productName;
 

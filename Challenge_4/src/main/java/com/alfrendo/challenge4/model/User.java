@@ -29,6 +29,9 @@ public class User {
 
     private String password;
 
+    @Column(columnDefinition = "BOOLEAN DEFAULT false")
+    private boolean isDeleted;
+
     @OneToMany(mappedBy = "user")
     private List<Order> orders;
 
