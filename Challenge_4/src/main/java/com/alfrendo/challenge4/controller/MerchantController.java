@@ -2,8 +2,9 @@ package com.alfrendo.challenge4.controller;
 
 import com.alfrendo.challenge4.dto.request.CreateMerchantRequest;
 import com.alfrendo.challenge4.dto.request.UpdateMerchantAvailabilityRequest;
-import com.alfrendo.challenge4.dto.request.UpdateProductBaseRequest;
-import com.alfrendo.challenge4.dto.response.*;
+import com.alfrendo.challenge4.dto.response.CreateMerchantResponse;
+import com.alfrendo.challenge4.dto.response.MerchantListResponse;
+import com.alfrendo.challenge4.dto.response.UpdateMerchantAvailabilityResponse;
 import com.alfrendo.challenge4.service.MerchantService;
 import com.alfrendo.challenge4.service.ProductService;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -27,8 +28,6 @@ import java.util.UUID;
 public class MerchantController {
 
     private final MerchantService merchantService;
-
-    private final ProductService productService;
 
     private final Logger log = LoggerFactory.getLogger(MerchantController.class);
 
