@@ -12,11 +12,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 @SpringBootTest
 class Challenge3ApplicationTests {
 
+//    @Autowired
     private final UserRepository userRepository;
 
-    Challenge3ApplicationTests(UserRepository userRepository) {
-        this.userRepository = userRepository;
-    }
+//    Challenge3ApplicationTests(UserRepository userRepository) {
+//        this.userRepository = userRepository;
+//    }
 
     @Test
     void registerUserAsMerchant() {

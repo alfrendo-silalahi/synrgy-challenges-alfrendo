@@ -1,0 +1,618 @@
+2023-11-08 19:27:34,940 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-11-08 19:27:35,082 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudBackendApplication using Java 17.0.5 with PID 10424 (D:\Projects\BinarFud\binarfud-backend\target\classes started by WIN-10 in D:\Projects\BinarFud\binarfud-backend)
+2023-11-08 19:27:35,086 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-08 19:27:37,367 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-08 19:27:37,574 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 186 ms. Found 5 JPA repository interfaces.
+2023-11-08 19:27:39,425 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-08 19:27:39,447 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-08 19:27:39,457 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-08 19:27:39,458 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-08 19:27:39,746 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-08 19:27:39,765 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4514 ms
+2023-11-08 19:27:40,175 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-08 19:27:40,351 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-08 19:27:40,359 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-08 19:27:40,650 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 19:27:40,876 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-08 19:27:40,905 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-08 19:27:41,359 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@26ffd2c0
+2023-11-08 19:27:41,361 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-08 19:27:41,919 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 19:27:43,471 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-08 19:27:43,877 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 19:27:44,776 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-08 19:27:45,385 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-08 19:27:46,336 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-08 19:27:46,396 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-08 19:27:46,422 INFO o.s.b.StartupInfoLogger [main] Started BinarfudBackendApplication in 13.075 seconds (process running for 14.211)
+2023-11-08 19:28:14,525 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-08 19:28:14,525 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-08 19:28:14,527 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-11-08 19:30:49,787 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 19:30:49,795 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-08 19:30:49,810 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-08 19:30:50,487 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-11-08 19:30:50,671 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudBackendApplication using Java 17.0.5 with PID 9284 (D:\Projects\BinarFud\binarfud-backend\target\classes started by WIN-10 in D:\Projects\BinarFud\binarfud-backend)
+2023-11-08 19:30:50,674 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-08 19:30:53,911 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-08 19:30:54,152 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 218 ms. Found 5 JPA repository interfaces.
+2023-11-08 19:30:56,236 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-08 19:30:56,652 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5773 ms
+2023-11-08 19:30:57,106 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-08 19:30:57,305 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-08 19:30:57,319 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-08 19:30:57,862 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 19:30:58,616 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-08 19:30:58,681 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-08 19:31:00,613 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a13f1f7
+2023-11-08 19:31:00,633 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-08 19:31:02,753 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 19:31:07,026 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-08 19:31:07,476 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 19:31:07,489 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'merchantController': Lookup method resolution failed
+2023-11-08 19:31:07,490 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 19:31:07,503 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-11-08 19:31:07,521 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-11-08 19:31:24,947 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-11-08 19:31:25,120 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudBackendApplication using Java 17.0.5 with PID 5332 (D:\Projects\BinarFud\binarfud-backend\target\classes started by WIN-10 in D:\Projects\BinarFud\binarfud-backend)
+2023-11-08 19:31:25,123 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-08 19:31:27,257 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-08 19:31:27,454 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 180 ms. Found 5 JPA repository interfaces.
+2023-11-08 19:31:28,907 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-08 19:31:28,919 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-08 19:31:28,923 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-08 19:31:28,923 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-08 19:31:29,063 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-08 19:31:29,119 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3843 ms
+2023-11-08 19:31:29,280 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-08 19:31:29,348 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-08 19:31:29,350 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-08 19:31:29,514 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 19:31:29,666 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-08 19:31:29,701 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-08 19:31:29,928 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@67b5e613
+2023-11-08 19:31:29,931 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-08 19:31:30,381 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 19:31:31,590 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-08 19:31:31,981 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 19:31:32,973 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-08 19:31:33,650 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-08 19:31:34,732 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-08 19:31:34,825 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-08 19:31:35,001 INFO o.s.b.StartupInfoLogger [main] Started BinarfudBackendApplication in 11.935 seconds (process running for 12.945)
+2023-11-08 19:31:45,714 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-08 19:31:45,715 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-08 19:31:45,718 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-11-08 19:36:30,631 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 19:36:30,636 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-08 19:36:30,647 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-08 19:36:57,500 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-11-08 19:36:57,570 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudBackendApplication using Java 17.0.5 with PID 12956 (D:\Projects\BinarFud\binarfud-backend\target\classes started by WIN-10 in D:\Projects\BinarFud\binarfud-backend)
+2023-11-08 19:36:57,573 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-08 19:36:59,049 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-08 19:36:59,222 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 160 ms. Found 5 JPA repository interfaces.
+2023-11-08 19:37:04,119 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-08 19:37:04,175 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-08 19:37:04,210 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-08 19:37:04,211 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-08 19:37:04,818 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-08 19:37:04,823 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 7154 ms
+2023-11-08 19:37:05,552 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-08 19:37:05,827 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-08 19:37:05,833 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-08 19:37:06,384 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 19:37:07,081 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-08 19:37:07,194 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-08 19:37:08,219 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5e24592e
+2023-11-08 19:37:08,227 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-08 19:37:09,190 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 19:37:12,734 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-08 19:37:13,095 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 19:37:14,058 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-08 19:37:14,690 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-08 19:37:15,676 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-08 19:37:15,742 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-08 19:37:15,769 INFO o.s.b.StartupInfoLogger [main] Started BinarfudBackendApplication in 19.611 seconds (process running for 20.648)
+2023-11-08 19:37:50,246 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-08 19:37:50,247 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-08 19:37:50,248 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-11-08 19:39:03,354 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 19:39:03,359 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-08 19:39:03,372 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-08 19:39:29,294 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-11-08 19:39:29,416 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudBackendApplication using Java 17.0.5 with PID 8128 (D:\Projects\BinarFud\binarfud-backend\target\classes started by WIN-10 in D:\Projects\BinarFud\binarfud-backend)
+2023-11-08 19:39:29,419 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-08 19:39:31,255 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-08 19:39:31,429 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 158 ms. Found 5 JPA repository interfaces.
+2023-11-08 19:39:32,846 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-08 19:39:32,864 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-08 19:39:32,872 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-08 19:39:32,873 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-08 19:39:33,142 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-08 19:39:33,146 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3582 ms
+2023-11-08 19:39:33,460 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-08 19:39:33,576 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-08 19:39:33,581 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-08 19:39:33,880 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 19:39:34,159 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-08 19:39:34,201 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-08 19:39:34,593 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2037f12b
+2023-11-08 19:39:34,597 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-08 19:39:35,211 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 19:39:37,129 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-08 19:39:37,446 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 19:39:38,223 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-08 19:39:38,644 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-08 19:39:39,091 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-08 19:39:39,111 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-08 19:39:39,127 INFO o.s.b.StartupInfoLogger [main] Started BinarfudBackendApplication in 11.066 seconds (process running for 12.079)
+2023-11-08 19:40:10,211 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-08 19:40:10,212 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-08 19:40:10,217 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2023-11-08 19:45:43,557 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 19:45:43,563 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-08 19:45:43,577 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-08 19:46:15,859 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-11-08 19:46:16,007 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudBackendApplication using Java 17.0.5 with PID 1528 (D:\Projects\BinarFud\binarfud-backend\target\classes started by WIN-10 in D:\Projects\BinarFud\binarfud-backend)
+2023-11-08 19:46:16,011 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-08 19:46:18,104 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-08 19:46:18,264 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 143 ms. Found 5 JPA repository interfaces.
+2023-11-08 19:46:19,533 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-08 19:46:19,543 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-08 19:46:19,548 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-08 19:46:19,549 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-08 19:46:19,701 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-08 19:46:19,705 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3522 ms
+2023-11-08 19:46:19,891 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-08 19:46:19,959 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-08 19:46:19,963 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-08 19:46:20,127 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 19:46:20,283 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-08 19:46:20,309 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-08 19:46:20,627 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@26ffd2c0
+2023-11-08 19:46:20,630 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-08 19:46:20,959 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 19:46:22,253 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-08 19:46:22,595 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 19:46:23,611 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-08 19:46:24,167 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-08 19:46:25,087 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-08 19:46:25,130 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-08 19:46:25,156 INFO o.s.b.StartupInfoLogger [main] Started BinarfudBackendApplication in 10.425 seconds (process running for 11.457)
+2023-11-08 19:47:01,315 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-08 19:47:01,315 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-08 19:47:01,317 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-11-08 19:47:01,853 WARN c.i.h.c.a.u.FlexApplierUtil [http-nio-8080-exec-1] Flex related property justify-content: space-between is not supported yet.
+2023-11-08 19:47:48,573 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 19:47:48,577 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-08 19:47:48,589 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-08 19:51:51,819 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-11-08 19:51:51,973 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudBackendApplication using Java 17.0.5 with PID 6836 (D:\Projects\BinarFud\binarfud-backend\target\classes started by WIN-10 in D:\Projects\BinarFud\binarfud-backend)
+2023-11-08 19:51:51,977 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-08 19:51:54,490 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-08 19:51:54,704 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 194 ms. Found 5 JPA repository interfaces.
+2023-11-08 19:51:56,417 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-08 19:51:56,441 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-08 19:51:56,449 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-08 19:51:56,450 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-08 19:51:56,786 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-08 19:51:56,800 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4623 ms
+2023-11-08 19:51:57,225 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-08 19:51:57,349 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-08 19:51:57,357 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-08 19:51:57,834 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 19:51:58,454 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-08 19:51:58,543 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-08 19:51:59,308 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@67a8bcbb
+2023-11-08 19:51:59,314 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-08 19:52:00,495 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 19:52:04,070 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-08 19:52:04,527 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 19:52:05,854 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-08 19:52:06,969 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-08 19:52:09,404 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-08 19:52:09,482 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-08 19:52:09,522 INFO o.s.b.StartupInfoLogger [main] Started BinarfudBackendApplication in 19.018 seconds (process running for 20.603)
+2023-11-08 19:55:31,831 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-08 19:55:31,832 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-11-08 19:55:31,834 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2023-11-08 19:55:32,000 INFO c.b.b.c.MerchantController [http-nio-8080-exec-2] CreateMerchantRequest(merchantName=Alfrendo Store, merchantLocation=Jakarta, open=true)
+2023-11-08 19:58:46,316 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 19:58:46,319 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-08 19:58:46,324 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-08 19:59:09,051 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-11-08 19:59:09,115 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudBackendApplication using Java 17.0.5 with PID 1572 (D:\Projects\BinarFud\binarfud-backend\target\classes started by WIN-10 in D:\Projects\BinarFud\binarfud-backend)
+2023-11-08 19:59:09,117 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-08 19:59:10,043 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-08 19:59:10,141 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 89 ms. Found 5 JPA repository interfaces.
+2023-11-08 19:59:10,862 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-08 19:59:10,871 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-08 19:59:10,875 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-08 19:59:10,876 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-08 19:59:11,019 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-08 19:59:11,021 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1830 ms
+2023-11-08 19:59:11,295 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-08 19:59:11,478 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-08 19:59:11,501 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-08 19:59:12,110 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 19:59:12,573 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-08 19:59:12,654 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-08 19:59:13,226 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@acb5508
+2023-11-08 19:59:13,233 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-08 19:59:14,084 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 19:59:15,969 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-08 19:59:16,271 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 19:59:16,634 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-08 19:59:16,884 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-08 19:59:17,282 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-08 19:59:17,303 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-08 19:59:17,315 INFO o.s.b.StartupInfoLogger [main] Started BinarfudBackendApplication in 9.194 seconds (process running for 10.144)
+2023-11-08 20:00:22,791 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-08 20:00:22,791 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-08 20:00:22,793 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-11-08 20:00:22,904 INFO c.b.b.c.MerchantController [http-nio-8080-exec-1] CreateMerchantRequest(name=null, location=null, open=true)
+2023-11-08 20:03:21,049 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 20:03:21,051 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-08 20:03:21,061 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-08 20:03:38,323 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-11-08 20:03:38,451 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudBackendApplication using Java 17.0.5 with PID 7544 (D:\Projects\BinarFud\binarfud-backend\target\classes started by WIN-10 in D:\Projects\BinarFud\binarfud-backend)
+2023-11-08 20:03:38,454 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-08 20:03:40,237 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-08 20:03:40,400 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 147 ms. Found 5 JPA repository interfaces.
+2023-11-08 20:03:41,141 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-08 20:03:41,153 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-08 20:03:41,157 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-08 20:03:41,157 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-08 20:03:41,275 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-08 20:03:41,276 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2690 ms
+2023-11-08 20:03:41,451 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-08 20:03:41,509 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-08 20:03:41,511 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-08 20:03:41,665 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 20:03:41,824 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-08 20:03:41,847 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-08 20:03:42,118 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5ab7ac02
+2023-11-08 20:03:42,125 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-08 20:03:42,426 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 20:03:43,696 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-08 20:03:44,014 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 20:03:44,881 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-08 20:03:45,466 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-08 20:03:46,504 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-08 20:03:46,559 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-08 20:03:46,643 INFO o.s.b.StartupInfoLogger [main] Started BinarfudBackendApplication in 9.411 seconds (process running for 10.129)
+2023-11-08 20:04:58,317 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-08 20:04:58,318 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-08 20:04:58,319 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-11-08 20:04:58,440 INFO c.b.b.c.MerchantController [http-nio-8080-exec-1] CreateMerchantRequest(name=Dimas Store, location=Bandung, open=true)
+2023-11-08 20:07:31,497 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 20:07:31,502 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-08 20:07:31,523 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-08 20:07:54,690 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-11-08 20:07:54,836 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudBackendApplication using Java 17.0.5 with PID 12688 (D:\Projects\BinarFud\binarfud-backend\target\classes started by WIN-10 in D:\Projects\BinarFud\binarfud-backend)
+2023-11-08 20:07:54,839 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-08 20:07:56,679 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-08 20:07:56,847 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 151 ms. Found 5 JPA repository interfaces.
+2023-11-08 20:07:57,649 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-08 20:07:57,664 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-08 20:07:57,668 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-08 20:07:57,669 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-08 20:07:57,789 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-08 20:07:57,793 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2818 ms
+2023-11-08 20:07:57,975 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-08 20:07:58,038 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-08 20:07:58,041 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-08 20:07:58,181 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 20:07:58,329 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-08 20:07:58,351 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-08 20:07:58,544 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3ac0a14b
+2023-11-08 20:07:58,546 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-08 20:07:58,864 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 20:08:00,106 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-08 20:08:00,416 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 20:08:01,226 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-08 20:08:01,751 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-08 20:08:02,638 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-08 20:08:02,684 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-08 20:08:02,710 INFO o.s.b.StartupInfoLogger [main] Started BinarfudBackendApplication in 9.126 seconds (process running for 10.027)
+2023-11-08 20:10:17,021 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-08 20:10:17,022 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-11-08 20:10:17,023 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2023-11-08 20:10:17,137 INFO c.b.b.c.MerchantController [http-nio-8080-exec-2] CreateMerchantRequest(name=Khai Store, location=Padang, open=true)
+2023-11-08 20:39:35,987 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 20:39:35,997 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-08 20:39:36,007 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-08 20:40:34,903 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-11-08 20:40:35,032 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudBackendApplication using Java 17.0.5 with PID 7372 (D:\Projects\BinarFud\binarfud-backend\target\classes started by WIN-10 in D:\Projects\BinarFud\binarfud-backend)
+2023-11-08 20:40:35,037 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-08 20:40:36,914 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-08 20:40:36,997 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 72 ms. Found 5 JPA repository interfaces.
+2023-11-08 20:40:37,742 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-08 20:40:37,753 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-08 20:40:37,758 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-08 20:40:37,759 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-08 20:40:37,903 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-08 20:40:37,914 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2670 ms
+2023-11-08 20:40:38,085 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-08 20:40:38,192 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-08 20:40:38,195 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-08 20:40:38,412 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 20:40:38,586 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-08 20:40:38,687 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-08 20:40:39,087 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@e972ee1
+2023-11-08 20:40:39,089 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-08 20:40:39,467 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 20:40:40,547 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-08 20:40:40,747 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 20:40:41,478 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-08 20:40:41,941 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-08 20:40:42,712 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-08 20:40:42,819 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-08 20:40:42,841 INFO o.s.b.StartupInfoLogger [main] Started BinarfudBackendApplication in 9.977 seconds (process running for 10.479)
+2023-11-08 20:41:11,200 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-08 20:41:11,200 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-08 20:41:11,201 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-11-08 20:41:11,261 ERROR o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.data.mapping.PropertyReferenceException: No property '1' found for type 'Merchant'; Did you mean 'id'] with root cause
+org.springframework.data.mapping.PropertyReferenceException: No property '1' found for type 'Merchant'; Did you mean 'id'
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:90)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:405)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:381)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:334)
+	at java.base/java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:330)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:316)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:299)
+	at org.springframework.data.jpa.repository.query.QueryUtils.toJpaOrder(QueryUtils.java:740)
+	at org.springframework.data.jpa.repository.query.QueryUtils.toOrders(QueryUtils.java:693)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.getQuery(SimpleJpaRepository.java:753)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.getQuery(SimpleJpaRepository.java:710)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:447)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:426)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:288)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:136)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:120)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:391)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:244)
+	at jdk.proxy2/jdk.proxy2.$Proxy137.findAll(Unknown Source)
+	at com.binarfud.backend.service.SimpleMerchantService.getAllMerchants(SimpleMerchantService.java:72)
+	at com.binarfud.backend.controller.MerchantController.getMerchantList(MerchantController.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-08 20:42:33,400 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 20:42:33,402 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-08 20:42:33,409 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-08 20:42:51,105 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-11-08 20:42:51,167 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudBackendApplication using Java 17.0.5 with PID 12528 (D:\Projects\BinarFud\binarfud-backend\target\classes started by WIN-10 in D:\Projects\BinarFud\binarfud-backend)
+2023-11-08 20:42:51,169 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-08 20:42:52,028 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-08 20:42:52,110 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 74 ms. Found 5 JPA repository interfaces.
+2023-11-08 20:42:52,722 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-08 20:42:52,730 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-08 20:42:52,734 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-08 20:42:52,735 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-08 20:42:52,841 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-08 20:42:52,843 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1594 ms
+2023-11-08 20:42:53,006 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-08 20:42:53,103 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-08 20:42:53,108 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-08 20:42:53,353 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 20:42:53,615 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-08 20:42:53,656 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-08 20:42:54,103 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2037f12b
+2023-11-08 20:42:54,106 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-08 20:42:54,659 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 20:42:56,147 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-08 20:42:56,326 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 20:42:56,826 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-08 20:42:57,117 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-08 20:42:57,579 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-08 20:42:57,604 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-08 20:42:57,613 INFO o.s.b.StartupInfoLogger [main] Started BinarfudBackendApplication in 6.996 seconds (process running for 7.412)
+2023-11-08 20:43:08,105 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-08 20:43:08,106 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-08 20:43:08,107 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-11-08 20:45:03,773 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 20:45:03,776 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-08 20:45:03,784 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-08 20:45:23,194 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-11-08 20:45:23,319 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudBackendApplication using Java 17.0.5 with PID 8236 (D:\Projects\BinarFud\binarfud-backend\target\classes started by WIN-10 in D:\Projects\BinarFud\binarfud-backend)
+2023-11-08 20:45:23,322 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-08 20:45:24,676 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-08 20:45:24,768 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 83 ms. Found 5 JPA repository interfaces.
+2023-11-08 20:45:25,400 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-08 20:45:25,409 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-08 20:45:25,412 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-08 20:45:25,413 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-08 20:45:25,528 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-08 20:45:25,530 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2085 ms
+2023-11-08 20:45:25,667 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-08 20:45:25,714 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-08 20:45:25,717 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-08 20:45:25,845 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 20:45:25,966 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-08 20:45:25,987 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-08 20:45:26,165 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1bb96449
+2023-11-08 20:45:26,167 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-08 20:45:26,427 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 20:45:27,230 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-08 20:45:27,361 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 20:45:27,700 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-08 20:45:27,925 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-08 20:45:28,542 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-08 20:45:28,581 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-08 20:45:28,602 INFO o.s.b.StartupInfoLogger [main] Started BinarfudBackendApplication in 6.566 seconds (process running for 7.46)
+2023-11-08 20:52:15,618 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 20:52:15,621 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-08 20:52:15,626 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-08 20:52:43,849 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-11-08 20:52:43,965 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudBackendApplication using Java 17.0.5 with PID 4452 (D:\Projects\BinarFud\binarfud-backend\target\classes started by WIN-10 in D:\Projects\BinarFud\binarfud-backend)
+2023-11-08 20:52:43,968 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-08 20:52:45,704 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-08 20:52:45,912 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 179 ms. Found 5 JPA repository interfaces.
+2023-11-08 20:52:47,231 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-08 20:52:47,254 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-08 20:52:47,259 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-08 20:52:47,261 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-08 20:52:47,496 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-08 20:52:47,500 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3406 ms
+2023-11-08 20:52:47,780 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-08 20:52:47,891 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-08 20:52:47,895 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-08 20:52:48,201 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 20:52:48,480 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-08 20:52:48,520 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-08 20:52:48,889 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@720a1fd0
+2023-11-08 20:52:48,892 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-08 20:52:49,446 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 20:52:50,967 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-08 20:52:51,261 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 20:52:51,979 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-08 20:52:52,371 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-08 20:52:52,964 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-08 20:52:52,998 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-08 20:52:53,015 INFO o.s.b.StartupInfoLogger [main] Started BinarfudBackendApplication in 10.157 seconds (process running for 11.201)
+2023-11-08 20:55:19,006 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-08 20:55:19,007 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-08 20:55:19,010 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2023-11-08 20:58:38,428 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 20:58:38,431 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-08 20:58:38,438 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-08 20:58:59,382 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-11-08 20:58:59,447 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudBackendApplication using Java 17.0.5 with PID 3756 (D:\Projects\BinarFud\binarfud-backend\target\classes started by WIN-10 in D:\Projects\BinarFud\binarfud-backend)
+2023-11-08 20:58:59,449 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-08 20:59:00,442 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-08 20:59:00,541 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 89 ms. Found 5 JPA repository interfaces.
+2023-11-08 20:59:01,757 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-08 20:59:01,798 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-08 20:59:01,806 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-08 20:59:01,807 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-08 20:59:02,144 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-08 20:59:02,148 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2627 ms
+2023-11-08 20:59:02,490 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-08 20:59:02,664 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-08 20:59:02,669 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-08 20:59:03,017 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 20:59:03,355 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-08 20:59:03,415 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-08 20:59:03,849 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2037f12b
+2023-11-08 20:59:03,852 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-08 20:59:04,722 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 20:59:06,661 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-08 20:59:06,975 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 20:59:07,525 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-08 20:59:07,766 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-08 20:59:08,189 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-08 20:59:08,212 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-08 20:59:08,230 INFO o.s.b.StartupInfoLogger [main] Started BinarfudBackendApplication in 9.49 seconds (process running for 10.34)
+2023-11-08 21:05:41,933 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-08 21:05:41,934 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-08 21:05:41,935 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-11-08 21:05:42,145 WARN c.b.b.s.SimpleMerchantService [http-nio-8080-exec-1] OPEN -> true
+2023-11-08 21:08:24,765 WARN c.b.b.s.SimpleMerchantService [http-nio-8080-exec-4] OPEN -> false
+2023-11-08 21:08:47,390 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 21:08:47,393 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-08 21:08:47,407 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-08 21:09:06,434 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-11-08 21:09:06,557 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudBackendApplication using Java 17.0.5 with PID 7284 (D:\Projects\BinarFud\binarfud-backend\target\classes started by WIN-10 in D:\Projects\BinarFud\binarfud-backend)
+2023-11-08 21:09:06,562 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-08 21:09:07,724 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-08 21:09:07,811 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 79 ms. Found 5 JPA repository interfaces.
+2023-11-08 21:09:08,476 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-08 21:09:08,484 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-08 21:09:08,489 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-08 21:09:08,490 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-08 21:09:08,613 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-08 21:09:08,614 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1908 ms
+2023-11-08 21:09:08,776 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-08 21:09:08,828 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-08 21:09:08,831 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-08 21:09:08,972 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 21:09:09,117 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-08 21:09:09,140 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-08 21:09:09,337 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2037f12b
+2023-11-08 21:09:09,338 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-08 21:09:09,639 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-08 21:09:11,498 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-08 21:09:11,794 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-08 21:09:12,513 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-08 21:09:12,973 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-08 21:09:13,622 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-08 21:09:13,670 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-08 21:09:13,681 INFO o.s.b.StartupInfoLogger [main] Started BinarfudBackendApplication in 8.293 seconds (process running for 9.154)
+2023-11-08 21:09:38,936 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-08 21:09:38,936 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-08 21:09:38,938 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-11-08 21:09:39,538 WARN c.b.b.s.SimpleMerchantService [http-nio-8080-exec-1] OPEN -> true
+2023-11-08 21:09:40,466 WARN c.b.b.s.SimpleMerchantService [http-nio-8080-exec-2] OPEN -> false
+2023-11-08 21:09:41,314 WARN c.b.b.s.SimpleMerchantService [http-nio-8080-exec-4] OPEN -> true
+2023-11-08 21:10:49,635 WARN c.b.b.s.SimpleMerchantService [http-nio-8080-exec-7] OPEN -> false
+2023-11-08 21:10:51,558 WARN c.b.b.s.SimpleMerchantService [http-nio-8080-exec-8] OPEN -> true
